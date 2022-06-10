@@ -148,6 +148,8 @@ namespace DSL
             return false;
         }
         m_pTracker->SetAttribute("ll-config-file", configFile);
+        m_llConfigFile.assign(configFile);
+
         return true;
     }
     

@@ -214,7 +214,6 @@ namespace DSL
             return DSL_RESULT_TRACKER_THREW_EXCEPTION;
         }
     }
-
    
     DslReturnType Services::TrackerDimensionsGet(const char* name, uint* width, uint* height)
     {

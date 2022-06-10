@@ -236,6 +236,14 @@ namespace DSL
         AddChild(m_pOverlay);
     }
     
+    OverlaySinkBintr::~OverlaySinkBintr()
+    {
+        LOG_FUNC();
+        
+        s_uniqueIds.remove(m_uniqueId);
+        
+    }
+
     bool OverlaySinkBintr::Reset()
     {
         LOG_FUNC();
@@ -263,14 +271,6 @@ namespace DSL
         return true;
     }
     
-    OverlaySinkBintr::~OverlaySinkBintr()
-    {
-        LOG_FUNC();
-        
-        s_uniqueIds.remove(m_uniqueId);
-        
-    }
-
     bool OverlaySinkBintr::LinkAll()
     {
         LOG_FUNC();

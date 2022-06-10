@@ -101,6 +101,9 @@
     <File Name="../src/DslOdeHeatMapper.h"/>
     <File Name="../src/DslOdeHeatMapper.cpp"/>
     <File Name="../src/DslServicesOdeHeatMapper.cpp"/>
+    <File Name="../src/DslPreprocBintr.h"/>
+    <File Name="../src/DslPreprocBintr.cpp"/>
+    <File Name="../src/DslServicesPreproc.cpp"/>
   </VirtualDirectory>
   <VirtualDirectory Name="test">
     <VirtualDirectory Name="api">
@@ -144,6 +147,7 @@
       <File Name="../test/api/DslOdeAccumulatorApiTest.cpp"/>
       <File Name="../test/api/DslOdeHeatMapperApiTest.cpp"/>
       <File Name="../test/unit/DslOdeActionUnitTest.cpp"/>
+      <File Name="../test/api/DslActionRecognitionBehaviorTest.cpp"/>
     </VirtualDirectory>
     <VirtualDirectory Name="unit">
       <File Name="../test/unit/DslDemuxerAndTeeUnitTest.cpp"/>
@@ -177,6 +181,7 @@
       <File Name="../test/unit/DslOdeTrackedObjectUnitTest.cpp"/>
       <File Name="../test/unit/DslOdeAccumulatorUnitTest.cpp"/>
       <File Name="../test/unit/DslOdeHeatMapperUnitTest.cpp"/>
+      <File Name="../test/unit/DslPreprocUnitTest.cpp"/>
     </VirtualDirectory>
   </VirtualDirectory>
   <VirtualDirectory Name="root">
